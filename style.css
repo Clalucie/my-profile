@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(90deg, #FF339F, #9333FF); /* Dégradé de couleurs vives en arrière-plan */
+    color: #fff; /* Texte en blanc */
+    border: 2px solid white; /* Border style updated */
+    margin: 20px; /* Updated margin */
+    padding: 20px; /* Updated padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
+    min-height: 100vh; /* Hauteur minimale de la fenêtre visible */
+}
+h1, h2, h3, h4 {
+    font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+}
+
+/* Styles spécifiques pour chaque élément */
+h1, h2,h3, h4 {
+    font-family: 'The Aesthetic Essential';
+    font-weight: bold;
+    border-bottom: 2px solid #fff; /* Bordure blanche sous les titres */
+    text-align: center; /* Centrer le texte */
+    padding: 10px; /* Ajoute un espace autour des titres */
+    border-radius: 10px; /* Bords arrondis pour les titres */
+    background-color: rgba(255, 255, 255, 0.1); /* Fond légèrement transparent */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+#profil-picture {
+    display: block;
+    width: 70%;
+    margin: auto;
+} 
+img {
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    image-orientation: center;
+
+    border-radius: 60%; /* Forme circulaire pour l'image */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    text-align: center; /* Centrer le texte */
+}
+
+a {
+    color: darkred;
+    transition: color 0.3s;
+    /* Supprimer le soulignement des liens */
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Mise en page */
+ul {
+    display: flex;
+    list-style:none;
+    padding: 0px 10px;
+    justify-content: center; /* Centrer horizontalement */
+}
+
+li {
+    margin-right: 20px;
+    margin-bottom: 10px; /* Added margin-bottom */
+    padding: 0px 10px;
+}
+div {
+    background-color: rgba(255, 255, 255, 0.5); /* Blanc avec une opacité de 50% */
+    margin: 0px ;
+    border: 5px dashed whitesmoke;
+    padding-block: 20px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px rgba(128, 0, 128, 0.5);
+    width: 700px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#button {
+    background-color: rgba(255, 51, 172 , 0.7);
+    color: white;
+    padding: 5px 5px;
+    margin-trim: 15px;
+}
+
+@media (max-width: 760px) {
+    div {
+        width: 600px;
+    }
+}
+@media (max-width: 500px) {
+    div {
+        width: 400px;
+    }
+}
